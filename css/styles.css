@@ -19,7 +19,7 @@ Tertiary color (Dark teal): #1b403a;
    --dark-grey: #2b2b2b;
    --white: #FFFFFF
  }
- 
+
  body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -89,7 +89,7 @@ a:active {
   color: var(--secondary-color);
 }
 
-button {
+button, .button {
   /* overwrites browser defaults and resets the border */
   border: none;
   /* takes the font from the outer container */
@@ -281,6 +281,13 @@ button:hover, button:focus {
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+.berlin-illustration {
+  max-width: 100%
+
+}
+
+
 /*
 text-align?
 

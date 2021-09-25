@@ -352,6 +352,11 @@ button:hover, button:focus {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
           animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+.berlin-illustration {
+  max-width: 100%
+
+}
 /*
 text-align?
 
